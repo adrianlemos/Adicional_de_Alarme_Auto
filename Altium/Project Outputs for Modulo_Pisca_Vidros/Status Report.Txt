@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Modulo_Pisca_Vidros.PrjPcb]
+   Generated File[Modulo_Pisca_Vidros_PCB.TXT]
+   Generated File[Modulo_Pisca_Vidros_PCB.LDP]
+   Generated File[Modulo_Pisca_Vidros_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:17:44 On 03/01/2021

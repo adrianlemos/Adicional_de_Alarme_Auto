@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Modulo_Pisca_Vidros_PCB.PcbDoc   03/01/2021  20:17:43
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Modulo_Pisca_Vidros_PCB.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          1                0.00 Inch (0.00 mm)
+T2        20mil (0.508mm)          Round          12               5.22 Inch (132.71 mm)
+T3        30mil (0.762mm)          Round          4                1.00 Inch (25.46 mm)
+T4        39mil (0.9906mm)         Round          4                4.61 Inch (117.00 mm)
+T5        40mil (1.016mm)          Round          21               2.57 Inch (65.30 mm)
+T6        71mil (1.8034mm)         Round          14               2.75 Inch (69.80 mm)
+---------------------------------------------------------------------------
+Totals                                            56               16.15 Inch (410.27 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01
