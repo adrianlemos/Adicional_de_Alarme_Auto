@@ -25,9 +25,12 @@ const byte leitorFarolLigado = 7;   //Config do Pino que detecta se o Farol est�
 
 /*Variaveis Globais*/
 int valorIterrupcao = 0;
+static unsigned long last_debounce_time = 0; // Cria a variavel e atribui o valor 0 a ela
+int valorUnicoDeExucucao = 0;
 
 /*Protótipo das Funções*/
 void interrupcaoBuzzer();
+void tomaDecisaoInterrupcao(int valorLocalInterrupcao);
 
 /*Função de Configuração*/
 void setup() {
@@ -52,8 +55,40 @@ void setup() {
 /*Loop principal do programa*/
 void loop() {
 
+// Ajuda a fazer o Debounce da Tomada de decisão
+if (digitalRead(buzzerInterruptPin) == HIGH){
+
+  valorUnicoDeExucucao++;
+  delay(1);
+
+}
+
+Serial.print("Valor Unico da Execucao: ");
+Serial.println(valorUnicoDeExucucao);
+
+if (valorIterrupcao != 0 && valorUnicoDeExucucao >= 4 )
+{
+  tomaDecisaoInterrupcao(valorIterrupcao);
+}
 
 
+
+
+
+Serial.print("Valor da interrupcao: ");
+Serial.println(valorIterrupcao);
+
+
+
+
+
+
+// Ajuda a Limpar o valor da variavel para que não estoure a pilha de memória.
+if (valorUnicoDeExucucao >= 1000)
+{
+  valorUnicoDeExucucao = 0;
+}
+delay(50);
 }
 
 /*FUNÇÕES*/
@@ -67,14 +102,20 @@ void loop() {
 
 */
 void interrupcaoBuzzer(){
+
+  Serial.println("Entrou na interrupcao");
+
   static unsigned long last_interrupt_time = 0; // Cria a variavel e atribui o valor 0 a ela
   unsigned long interrupt_time = millis(); // Cria a variavel e atribui o tempo da função millis
   
-  if (interrupt_time - last_interrupt_time > 300) // Se a interrupção for detectada com menos de 300ms ele ignora
-  {
+  if (interrupt_time - last_interrupt_time > 30 && digitalRead(buzzerInterruptPin) == LOW){ // Se a interrupção for detectada com menos de 300ms ele ignora
+  
     valorIterrupcao++; //Soma +1 na Variavel
+    valorUnicoDeExucucao = 0; //Zera o valor da variavel que ajuda na tomada de decisão
   }
-  last_interrupt_time = interrupt_time;// seta o valor da variavel interrupt_time na variavel last_interrupt_time
+  
+    last_interrupt_time = interrupt_time;// seta o valor da variavel interrupt_time na variavel last_interrupt_time
+
 }
 
 /*
@@ -88,13 +129,42 @@ void tomaDecisaoInterrupcao(int valorLocalInterrupcao){
   switch (valorLocalInterrupcao)
   {
     case 1:
-      /* code */
+      valorIterrupcao = 0;
+      digitalWrite(setaAcionamento, HIGH);
+      delay(500);
+      digitalWrite(setaAcionamento, LOW);
+      delay(500);
+      
+      Serial.println("Passou dentro da execução 1");
+      digitalWrite(abreTravaEletrica, LOW);
+      digitalWrite(fechaTravaEletrica, HIGH);
+      delay(10);
+      digitalWrite(fechaTravaEletrica, LOW);
+      delay(10);
       break;
   
     case 2:
-      /* code */
+      valorIterrupcao = 0;
+      digitalWrite(setaAcionamento, HIGH);
+      delay(500);
+      digitalWrite(setaAcionamento, LOW);
+      delay(250);
+      digitalWrite(setaAcionamento, HIGH);
+      delay(500);
+      digitalWrite(setaAcionamento, LOW);
+      delay(250);
+      digitalWrite(abreTravaEletrica, HIGH);
+      digitalWrite(fechaTravaEletrica, LOW);
+      delay(10);
+      digitalWrite(abreTravaEletrica,LOW);
+      delay(10);      
+      Serial.println("Passou dentro da execução 2");
       break;
-  
+
+    case 3 :
+      valorIterrupcao = 0;
+      break;
+
     default:
       break;
   }
