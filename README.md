@@ -2,11 +2,15 @@
 
 Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos do Alarme e toma uma decisão.
 
-1 pulso  - Fecha as Travas eléticas, Pisca a Seta e sobe o Vidro
-2 pulsos - Abre a Trava elétrica e Pisca a Seta duas vezes
-3 pulsos - Não faz nada. 
+Recursos
+
+- 1 pulso  - Fecha as Travas eléticas, Pisca a Seta e sobe o Vidro
+- 2 pulsos - Abre a Trava elétrica e Pisca a Seta duas vezes
+- 3 pulsos - Não faz nada.
+- Identifica se o Farol esta ligado e sem o Pós chave emite som de alerta
 
 #Schematico
+
 
 #Placa de Circuito Impresso
 
