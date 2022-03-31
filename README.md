@@ -18,9 +18,12 @@ Recursos
 
 #Revisões
 
+##v1.0.2
+Modificação do Layout para a inclusão dos diodos schottky D2, D3, circuito de acionamento da buzzer, modificação do circuito de acionamento do Rele. 
+
+
 ##v1.0.1
 Placa com correção nas medidas do Tamanho para que possam caber na Caixa Patola CP-021
-
 
 
 ##v1.0.0
