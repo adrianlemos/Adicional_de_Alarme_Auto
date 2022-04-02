@@ -1,0 +1,26 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Modulo_Pisca_Vidros.PrjPcb]
+   Generated File[Modulo_Pisca_Vidros_PCB.GTL]
+   Generated File[Modulo_Pisca_Vidros_PCB.GBL]
+   Generated File[Modulo_Pisca_Vidros_PCB.GPB]
+   Generated File[Modulo_Pisca_Vidros_PCB.GPT]
+   Generated File[Modulo_Pisca_Vidros_PCB.GTO]
+   Generated File[Modulo_Pisca_Vidros_PCB.GTP]
+   Generated File[Modulo_Pisca_Vidros_PCB.GTS]
+   Generated File[Modulo_Pisca_Vidros_PCB.GBS]
+   Generated File[Modulo_Pisca_Vidros_PCB.GBP]
+   Generated File[Modulo_Pisca_Vidros_PCB.GBO]
+   Generated File[Modulo_Pisca_Vidros_PCB.GKO]
+   Generated File[Modulo_Pisca_Vidros_PCB.GM1]
+   Generated File[Modulo_Pisca_Vidros_PCB.GM2]
+   Generated File[Modulo_Pisca_Vidros_PCB.GM30]
+   Generated File[Modulo_Pisca_Vidros_PCB.RUL]
+   Generated File[Modulo_Pisca_Vidros_PCB.EXTREP]
+   Generated File[Modulo_Pisca_Vidros_PCB.REP]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 17:50:27 On 02/04/2022

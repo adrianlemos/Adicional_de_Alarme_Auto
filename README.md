@@ -1,8 +1,11 @@
-## Selecione o Idioma: | Português | [Inglês](README_en.md) | [Espanhol](README_es.md) |
+## Selecione o Idioma: | Português | [Inglês](./README_en.md) | [Espanhol](./README_es.md) |
 
 # Adicional_de_Alarme_Auto
 
 Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos do Alarme e toma uma decisão.
+
+## Objetivo e Motivação do Projeto.
+
 
 # Recursos
 
@@ -17,10 +20,14 @@ Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos d
 ![plot](./schematico1.jpg)
 
 
-# Placa de Circuito Impresso
+# Visão 3D da PCI
 
 ![plot](./TopBottonLayer.jpg)
 
+
+# Layout das Trilhas da PCI
+
+![]()
 
 # Revisões
 

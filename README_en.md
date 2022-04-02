@@ -1,8 +1,11 @@
-## Selecione o Idioma: | Português | [Inglês](README_en.md) | [Espanhol](README_es.md) |
+## Select the Language: | [Portuguese](./README.md) | English | [Spanish](./README_es.md) |
 
 # Adicional_de_Alarme_Auto
 
 Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos do Alarme e toma uma decisão.
+
+## Objetivo e Motivação do Projeto.
+
 
 # Recursos
 
