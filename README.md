@@ -20,9 +20,14 @@ Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos d
 ![plot](./schematico1.jpg)
 
 
+# Layout
+
+![plot](./topbot-layout.jpg)
+
+
 # Visão 3D da PCI
 
-![plot](./TopBottonLayer.jpg)
+![plot](./TopBotton3dLayer.jpg)
 
 
 # Layout das Trilhas da PCI
