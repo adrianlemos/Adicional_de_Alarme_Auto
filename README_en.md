@@ -14,15 +14,22 @@ Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos d
 - 3 pulsos - Não faz nada.
 - Identifica se o Farol esta ligado e sem o Pós chave emite som de alerta
 
+# BOM
+
 
 # Schematico
 
-![plot](./schematico1.jpg)
+![plot](./images/schematico1.jpg)
 
 
-# Placa de Circuito Impresso
+# Visão 3D da PCI
 
-![plot](./TopBottonLayer.jpg)
+![plot](./images/TopBotton3dLayer.jpg)
+
+
+# Layout das Trilhas da PCI
+
+![plot](./images/topbot-layout.jpg)
 
 
 # Revisões
