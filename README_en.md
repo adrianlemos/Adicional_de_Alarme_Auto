@@ -1,46 +1,46 @@
 ## Select the Language: | [Portuguese](./README.md) | English | [Spanish](./README_es.md) |
 
-# Adicional_de_Alarme_Auto
+# Additional Car Alarm
 
-Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos do Alarme e toma uma decisão.
-
-## Objetivo e Motivação do Projeto.
+Project of an Additional for automotive alarm, which reads the number of alarm pulses and makes a decision.
 
 
-# Recursos
+## Purpose and Motivation of the Project.
 
-- 1 pulso  - Fecha as Travas eléticas, Pisca a Seta e sobe o Vidro
-- 2 pulsos - Abre a Trava elétrica e Pisca a Seta duas vezes
-- 3 pulsos - Não faz nada.
-- Identifica se o Farol esta ligado e sem o Pós chave emite som de alerta
+
+# Features
+
+- 1 pulse - Close the Electric Locks, Flash the Arrow and raise the Window
+- 2 pulses - Opens the Electric Lock and Flashes the Arrow twice
+- 3 or more pulses - Does nothing.
+- Identifies if the Lighthouse is on and without the Post key it emits an alert sound
 
 # BOM
 
 
-# Schematico
+# Schematic
 
 ![plot](./images/schematico1.jpg)
 
 
-# Visão 3D da PCI
+# 3D Vision to the PCB
 
 ![plot](./images/TopBotton3dLayer.jpg)
 
 
-# Layout das Trilhas da PCI
+# Layout of PCB
 
 ![plot](./images/topbot-layout.jpg)
 
 
-# Revisões
+# Revision 
 
 * v1.0.2 - 
-Modificação do Layout para a inclusão dos diodos schottky D2, D3, circuito de acionamento da buzzer, modificação do circuito de acionamento do Rele. 
+Layout modification for the inclusion of schottky diodes D2, D3, buzzer activation circuit, modification of the Relay activation circuit.
 
 
 * v1.0.1 - 
-Placa com correção nas medidas do Tamanho para que possam caber na Caixa Patola CP-021
-
+Plate with correction of the Size measurements so that they can fit in the CP-021 Patola Box
 
 * v1.0.0 - 
-Placa inicial feita na JLCPCB com alguns erros de projetos pegos na produção
+Starter board made at JLCPCB with some design errors caught in production
