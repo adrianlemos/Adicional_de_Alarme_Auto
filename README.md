@@ -6,6 +6,8 @@ Projeto de um Adicional para alarme automotivo, que lê a quantidade de pulsos d
 
 ## Objetivo e Motivação do Projeto.
 
+Este projeto foi criado para ser utilizado com o rastreador chinês TK-303 ou qualquer outro Alarme que não possua o acionamento das travas eletricas ou do vidro elétrico de forma nativa.
+
 
 # Recursos
 
